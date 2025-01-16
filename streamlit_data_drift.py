@@ -31,7 +31,7 @@ st.title('Data Drift Detection')
 
 
 use_example_files = st.checkbox("Use example files"
-                                , True
+                                , False
                                 , help="Use in-built example files to demo the app"
                                 )
 
