@@ -44,10 +44,10 @@ current_file = st.file_uploader("Upload Current Data (csv)")#, accept_multiple_f
 
 
 if use_example_files:
-  reference_file = 'reference_data.csv'
+  reference_file = 'small_ref_df.csv'
   reference_df = pd.read_csv(reference_file)#,usecols=['from','to'])
   
-  current_file = 'current_data.csv'
+  current_file = 'small_cur_df.csv'
   current_df = pd.read_csv(current_file)#,usecols=['from','to'])
   
 
