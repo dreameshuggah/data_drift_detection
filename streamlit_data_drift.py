@@ -51,7 +51,7 @@ if use_example_files:
   current_df = pd.read_csv(current_file)#,usecols=['from','to'])
   
 
-if reference_file and current_file:
+if use_example_files == False and reference_file and current_file:
   #@st.cache_data()
   reference_df = pd.read_csv(reference_file)#,usecols=['from','to'])
   current_df = pd.read_csv(current_file)#,usecols=['from','to'])
