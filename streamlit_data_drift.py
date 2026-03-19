@@ -25,6 +25,14 @@ st.set_page_config(page_title="Data Drift Analysis Dashboard", page_icon="✨", 
 # --- Custom Premium CSS ---
 st.markdown("""
 <style>
+
+.stApp {
+        #background-color: var(--bg-color);
+        background: radial-gradient(circle at top left, #141c2f 0%, #0b0f19 50%, #05080e 100%);
+        color: var(--text-main);
+        font-family: 'Inter', sans-serif;
+    }
+    
 /* Gradient Title */
 .gradient-text {
     background: -webkit-linear-gradient(45deg, #FF6B6B, #5F27CD);
