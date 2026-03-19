@@ -1,4 +1,7 @@
+
+
 # Data Drift Detection
+https://rizal-data-drift-detection-evidently.streamlit.app/
 
 This repository provides a comprehensive framework for detecting data drift in machine learning pipelines. Data drift occurs when the statistical properties of the input data change over time, potentially leading to model performance degradation.
 
