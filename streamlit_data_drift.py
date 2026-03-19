@@ -59,6 +59,31 @@ st.markdown("""
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 }
+
+/* Sidebar restyling */
+    [data-testid="stSidebar"] {
+        background-color: #0b0f19 !important;
+        border-right: 1px solid rgba(212, 175, 55, 0.1);
+    }
+    
+    /* Buttons */
+    .stButton>button {
+        background: linear-gradient(135deg, #d4af37 0%, #b5952f 100%);
+        color: #05080e !important;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 2rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+    }
+    
+    .stButton>button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+        background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 100%);
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
