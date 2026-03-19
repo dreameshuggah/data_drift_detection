@@ -18,6 +18,15 @@ In production environments, machine learning models often face **concept drift**
 *   **Automated Alerts:** Logic to flag features that exceed defined drift thresholds.
 *   **Scalable Design:** Capable of handling both numerical and categorical data features.
 
+
+## How It Works
+1) Reference Baseline: The tool establishes a statistical baseline using a "Reference Dataset" (usually the training set).
+
+2) Feature Profiling: For each feature, the tool calculates statistical properties.
+
+3) Comparison: It compares the current data window against the baseline using the selected statistical test.
+
+4) Drift Scoring: A drift score is generated. If the score exceeds the threshold, the feature is marked as "drifted."
 ---
 
 ## Installation
