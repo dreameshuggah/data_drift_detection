@@ -17,25 +17,4 @@ In production environments, machine learning models often face **concept drift**
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-*   Python 3.8+
-*   Pandas, Scikit-learn, Scipy, Matplotlib
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/dreameshuggah/data_drift_detection.git](https://github.com/dreameshuggah/data_drift_detection.git)
-    cd data_drift_detection
-    ```
-
-2.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
----
 
