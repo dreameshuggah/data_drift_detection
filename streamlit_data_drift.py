@@ -28,6 +28,25 @@ st.markdown("""
 /* Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
 
+#h1, h2, 
+    h1 {
+        color: #d4af37 !important;
+        font-weight: 400 !important;
+        letter-spacing: 1px;
+        #text-transform: uppercase;
+        font-size: 2.8rem !important;
+        margin-top: 2rem !important;
+    }
+    
+    h3 {
+        color: #d4af37 !important;
+        font-weight: 400 !important;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 1.5rem !important;
+        margin-top: 2rem !important;
+    }
+    
 .stApp {
         #background-color: var(--bg-color);
         background: radial-gradient(circle at top left, #141c2f 0%, #0b0f19 50%, #05080e 100%);
