@@ -20,7 +20,7 @@ except RuntimeError:
 from evidently import Report
 from evidently.presets import DataDriftPreset
 
-st.set_page_config(page_title="Data Drift Analysis Dashboard", page_icon="✨", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Data Drift Detection Dashboard", page_icon="✨", layout="wide", initial_sidebar_state="expanded")
 
 # --- Custom Premium CSS ---
 st.markdown("""
@@ -62,8 +62,8 @@ st.markdown("""
 
 # Main Header
 #st.markdown('<p class="gradient-text">✨ Data Drift Analysis Dashboard</p>', unsafe_allow_html=True)
-st.title("Data Drift Analysis Dashboard")
-st.markdown('<p class="subtitle">Detect Data Drift in your datasets over time</p>', unsafe_allow_html=True)
+st.title("Data Drift Detection Dashboard")
+st.markdown('<p class="subtitle">Detect Data Drift in datasets over time</p>', unsafe_allow_html=True)
 
 
 # --- Sidebar Setup ---
