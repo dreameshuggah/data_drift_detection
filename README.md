@@ -20,4 +20,10 @@ In production environments, machine learning models often face **concept drift**
 
 ---
 
+git clone https://github.com/dreameshuggah/data_drift_detection.git
+cd data_drift_detection
 
+pip install -r requirements.txt
+
+
+streamlit run 
