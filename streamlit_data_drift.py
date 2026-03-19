@@ -25,6 +25,8 @@ st.set_page_config(page_title="Data Drift Detection Dashboard", page_icon="✨",
 # --- Custom Premium CSS ---
 st.markdown("""
 <style>
+/* Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
 
 .stApp {
         #background-color: var(--bg-color);
