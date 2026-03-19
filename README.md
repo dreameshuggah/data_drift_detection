@@ -30,11 +30,11 @@ In production environments, machine learning models often face **concept drift**
 
 ## Installation
 ### Clone the repository:
-git clone https://github.com/dreameshuggah/data_drift_detection.git
-cd data_drift_detection
+* git clone https://github.com/dreameshuggah/data_drift_detection.git
+* cd data_drift_detection
 
 ### Install the required dependencies:
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 ### Run App
-streamlit run streamlit_data_drift.py
+* streamlit run streamlit_data_drift.py
