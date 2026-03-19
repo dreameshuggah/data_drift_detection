@@ -15,7 +15,6 @@ In production environments, machine learning models often face **concept drift**
 
 *   **Statistical Tests:** Implementation of various methods like Kolmogorov-Smirnov (K-S) test, Population Stability Index (PSI), and Jensen-Shannon Divergence.
 *   **Visualizations:** Tools to plot distribution comparisons between reference (train) and current (production) datasets.
-*   **Automated Alerts:** Logic to flag features that exceed defined drift thresholds.
 *   **Scalable Design:** Capable of handling both numerical and categorical data features.
 
 
